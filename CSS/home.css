@@ -160,6 +160,14 @@ body {
     color: #333;
 }
 
+/* Password column styling - make it more visible */
+.users-table td:nth-child(4) {
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+    color: #667eea;
+    word-break: break-all;
+}
+
 .users-table td:last-child {
     border-right: none;
     width: 150px;
